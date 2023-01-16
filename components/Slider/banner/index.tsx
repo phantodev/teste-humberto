@@ -36,7 +36,7 @@ export function SliderBanner({ bannerDetails }: SliderBanner) {
       {bannerDetails.map((banner, idx) => {
         return (
           <SwiperSlide key={banner.idBanner + idx}>
-            <Image src={banner.imagem} layout={"fill"} />
+            <Image alt="Banners" src={banner.imagem} layout={"fill"} />
           </SwiperSlide>
         );
       })}
