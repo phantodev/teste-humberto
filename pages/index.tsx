@@ -4,7 +4,7 @@ import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Footer from "./components/footer";
 import { NextSeo } from "next-seo";
-import { BannerHelper } from "../server/helpers/banner";
+//import { BannerHelper } from "../server/helpers/banner";
 import { CategoryHelper } from "../server/helpers/category";
 import { ProductHelper } from "../server/helpers/product";
 import { AboutHelper } from "../server/helpers/about";
